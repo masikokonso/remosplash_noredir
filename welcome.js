@@ -55,11 +55,16 @@ function handleSignUp() {
         // In real app: window.location.href = 'signup.html';
         
         // For demo, show message
-        showToast('Redirecting to Sign Up...');
-        setTimeout(() => {
+     //   showToast('Redirecting to Sign Up...');
+       // setTimeout(() => {
             // Uncomment in real app:
-            window.location.href = 'signup.html';
-        }, 1000);
+         //   window.location.href = 'signup.html';
+        //}, 1000);
+        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        setTimeout(() => {
+    window.location.href = 'https://play.google.com/store/apps/details?id=com.remopesa.remopesatask';
+}, 1000);
+        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     }, 1000);
 }
 
@@ -78,11 +83,16 @@ function handleSignIn() {
         // In real app: window.location.href = 'login.html';
         
         // For demo, show message
-        showToast('Redirecting to Sign In...');
-        setTimeout(() => {
+       // showToast('Redirecting to Sign In...');
+       // setTimeout(() => {
             // Uncomment in real app:
             // window.location.href = 'login.html';
-        }, 1000);
+       // }, 1000);
+        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+setTimeout(() => {
+    window.location.href = 'https://play.google.com/store/apps/details?id=com.remopesa.remopesatask';
+}, 1000);
+        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     }, 1000);
 }
 
