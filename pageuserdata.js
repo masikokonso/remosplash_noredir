@@ -13,7 +13,7 @@
         get redirectUrl() {
             return (window.APP_CONFIG && window.APP_CONFIG.baseUrl)
                 ? window.APP_CONFIG.baseUrl
-                : 'https://remotask-web.vercel.app';
+                : 'http://remosplash-noredir.vercel.app';
         },
         useBlur: false,
         showWarning: false,
